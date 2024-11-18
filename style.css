@@ -215,6 +215,9 @@ color: black;
 .githubc a{
     color: black;
 }
+.live:hover{
+    background-color: rgb(164, 178, 247);
+}
 
 @media screen and (max-width:425px) {
     body{

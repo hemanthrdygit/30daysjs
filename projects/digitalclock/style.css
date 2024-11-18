@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", system-ui;
+    color: white;
+}
+body{
+    padding: 15px;
+}
+.maincont{
+    position: relative;
+    width: 99%;
+    height: 95vh;
+    background-color: rgb(21, 63, 118);
+    margin-inline: auto;
+    margin-block: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.childcont{
+    position: relative;
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 50px;
+}
+.maincont h3{
+    font-size: 2rem;
+    opacity: 1;
+    margin-top: 40px;
+}
+.timearea{
+    position: relative;
+    width: 75%;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+h4{
+    opacity: 1;
+}
+.time{
+    background-color: rgb(36, 85, 148);
+    padding:19px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.ampm{
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    padding: 10px;
+    font-weight: 800;
+    margin-top: 25px;
+    background-color: rgb(211, 231, 249);
+}
